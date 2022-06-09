@@ -1,0 +1,21 @@
+* {
+    font-family: "Verdana", "Dejavu", "Sans", sans-serif;
+}
+
+.salmon-bg{
+    background-color: salmon;
+}
+
+#big-and-blue{
+    color: blue;
+    font-size: 32px;
+}
+
+.large-font{
+    font-size: 24px;
+}
+
+#green-and-bold{
+    background-color: lightgreen;
+    font-weight: bold;
+}
