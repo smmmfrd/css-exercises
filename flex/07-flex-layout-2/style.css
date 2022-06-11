@@ -5,19 +5,19 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 48px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
+  height: 48px;
   background: #eee;
   color: darkmagenta;
 }
 
 .sidebar {
-  width: 300px;
+  /* width: 300px; */
   background: royalblue;
 }
 
@@ -25,4 +25,65 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+/* My Stuff */
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-and-cards{
+  flex: 1;
+  display: flex;
+}
+
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+  flex: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 16px;
+}
+
+.card{
+  width: 300px;
+  height: 200px;
+  padding: 8px;
 }
