@@ -61,3 +61,17 @@ button {
   opacity: 30%;
 }
 
+/* SOLUTION */
+
+.popup-modal.show {
+  animation: modalPopup 0.5s;
+}
+
+@keyframes modalPopup {
+  0% {
+    transform: translate(-50%, -100%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
